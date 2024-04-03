@@ -1,0 +1,311 @@
+@media only screen and (max-width: 768px) {
+
+    .para {
+        font-size: 14px;
+    }
+
+    .heading {
+        font-size: 52px;
+        line-height: 85px;
+        font-family: meritocracy;
+        line-height: 40px;
+    }
+
+    .heading span {
+        font-size: 60px;
+        display: block;
+        font-family: geist;
+        line-height: 50px;
+    }
+
+    .btns button .custom-btn {
+        font-size: 14px;
+    }
+
+    .card-heading {
+        font-size: 26px;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+
+    .header .header-items .btns button,
+    .header .header-items .main-nav .nav-menu {
+        display: none;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .header .header-items {
+        padding: 6px 12px;
+    }
+
+    .header .header-items .hamburgar {
+        display: block;
+    }
+
+    .header .header-items .hamburgar .sidepanel {
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        background: var(--secondary-color);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+    .header .header-items .hamburgar .sidepanel .nav-menu {
+        padding-left: 0 !important;
+    }
+
+    .header .header-items .hamburgar .sidepanel .nav-menu .nav-items {
+        list-style: none;
+    }
+
+    .header .header-items .hamburgar .sidepanel .nav-menu .nav-items a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        /* font-size: 25px; */
+        color: #fff;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .header .header-items .hamburgar .sidepanel .nav-menu .nav-items a:hover {
+        color: #f1f1f1;
+    }
+
+    .header .header-items .hamburgar .sidepanel .contactUs-btn {
+        margin: 15px 28px;
+    }
+
+    .header .header-items .hamburgar .sidepanel .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-top: 15px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .header .header-items .hamburgar .openbtn {
+        padding: 10px 20px;
+        background: var(--secondary-color);
+        color: #fff;
+        outline: none;
+        border: none;
+        border-radius: 28px
+    }
+
+    .header .header-items .hamburgar .ham-btn {
+        text-align: start;
+        margin-left: 32px;
+    }
+
+    .header .header-items .hamburgar .ham-btn button {
+        padding: 10px 40px;
+        background: transparent;
+        outline: none;
+        border: 1px solid #fff;
+        border-radius: 28px;
+    }
+
+    .header .header-items .hamburgar .ham-btn #sign-in {
+        padding: 10px 26px;
+        background: transparent;
+        outline: none;
+        border: 1px solid #fff;
+        border-radius: 28px;
+        margin-bottom: 5px;
+    }
+
+    .header .header-items .hamburgar .ham-btn button .custom-btn {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: geist;
+        font-weight: 600;
+        line-height: 36px;
+    }
+
+    .banner .banner-content .cont {
+        padding-top: 120px;
+    }
+
+    .banner p {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .Wellness .cards .a-cards {
+        gap: 15px;
+    }
+
+    .Wellness .cards .card {
+        transform: rotate(-3deg);
+        padding: 40px;
+    }
+
+    .unique-content {
+        padding: 35px 0px;
+        position: relative;
+    }
+
+    .unique-content .uni-nav-menu {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        padding: 25px 0;
+    }
+
+    .unique-content .card {
+        padding: 40px;
+        width: 100%;
+        margin: 0;
+        transform: rotate(0deg);
+    }
+
+    /* .unique-content .owl-dots {
+        display: none;
+    } */
+
+    .it-work {
+        padding: 40px 0px;
+    }
+
+    .it-work .it-work-content .text-card {
+        gap: 10px;
+        margin: 35px 0;
+    }
+
+    .it-work .it-work-content .text-card p {
+        text-indent: 0;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .people-say {
+        padding: 35px 0;
+
+    }
+
+    .testimonials-card .testimonial-wrapper {
+        padding: 30px;
+        background: rgb(228, 237, 226);
+        border-radius: 20px;
+        transform: rotate(0deg);
+        flex-direction: column;
+        margin: 50px 0px;
+    }
+
+    .flexible-pricing {
+        padding: 35px 0 0;
+    }
+
+    .flexible-pricing .pricing-cards .cards {
+        padding: 80px 30px;
+    }
+
+    .flexible-pricing .pricing-cards .cards:nth-child(2n) {
+        background: var(--primary-color);
+        padding: 40px 20px;
+        border-radius: 40px;
+        color: rgb(255, 255, 255);
+        box-shadow: 40px 30px 80px var(--secondary-color);
+    }
+
+    .flexible-pricing .pricing-cards .cards {
+        padding: 40px 20px;
+    }
+
+    #plan-1,
+    #plan-3 {
+        transform: rotate(0deg);
+    }
+
+    .flexible-pricing .pricing-cards .cards {
+        width: 100%;
+    }
+
+    .flexible-pricing .pricing-cards .cards .price-card {
+        gap: 20px;
+        align-items: center;
+    }
+
+    .flexible-pricing .pricing-cards .cards .price-card .cata h2 {
+        font-size: 60px;
+        line-height: 85px;
+    }
+
+    .flexible-pricing .pricing-cards .cards .price-card .cata h3 {
+        font-size: 20px;
+    }
+
+    .flexible-pricing .pricing-cards .cards .price-card .list-img {
+        width: 20px !important;
+    }
+
+    .flexible-pricing .pricing-cards .cards .price-card .list p {
+        font-size: 14px;
+        width: 200px;
+    }
+
+    .FAQS {
+        padding: 35px 0px;
+    }
+
+    .FAQS .para {
+        padding-right: 0;
+    }
+
+    .accordion-item .accordion-item-title,
+    .accordion-item .accordion-item-desc {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .accordion-item input[type="checkbox"]~.accordion-item-title .icon::after {
+        font-size: 15px;
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+    }
+
+    .latest-news {
+        padding: 35px 0 0;
+    }
+
+    .latest-news .news .new-content {
+        display: block;
+        font-weight: 300;
+    }
+
+    .latest-news .news .new-content .pt-5 {
+        font-size: 30px;
+    }
+
+    .latest-news .news .new-2 .new-content {
+        height: fit-content;
+    }
+
+    .footer {
+        height: fit-content;
+        padding: 100px 0 0;
+    }
+
+    .footer .para {
+        padding-right: 0;
+        margin-top: 25px;
+    }
+
+
+
+}
