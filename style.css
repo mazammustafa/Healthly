@@ -46,7 +46,8 @@ img {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-family: geist;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 16px;
     line-height: 36px;
 }
 
@@ -172,10 +173,6 @@ img {
 .banner .banner-content .banner-bottom .btns {
     text-align: center;
     margin-bottom: 20px;
-}
-
-.banner .banner-content .banner-bottom .btns button .custom-btn {
-    font-size: 18px;
 }
 
 .banner .banner-content .banner-bottom .banner-btm-img {
