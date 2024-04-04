@@ -173,10 +173,6 @@
         transform: rotate(0deg);
     }
 
-    /* .unique-content .owl-dots {
-        display: none;
-    } */
-
     .it-work {
         padding: 40px 0px;
     }
@@ -272,13 +268,13 @@
         font-size: 14px;
     }
 
-    .accordion-item input[type="checkbox"]~.accordion-item-title .icon::after {
+    .accordion-item input[type="checkbox"]~.accordion-item-title .icon::after,
+    .accordion-item input[type="checkbox"]:checked~.accordion-item-title .icon::after {
         font-size: 15px;
         width: 30px;
         height: 30px;
         border-radius: 10px;
     }
-
     .latest-news {
         padding: 35px 0 0;
     }
@@ -298,14 +294,11 @@
 
     .footer {
         height: fit-content;
-        padding: 100px 0 0;
+        padding: 100px 0 50px;
     }
 
     .footer .para {
         padding-right: 0;
         margin-top: 25px;
     }
-
-
-
 }
