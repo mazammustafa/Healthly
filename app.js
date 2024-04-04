@@ -32,15 +32,15 @@
 //     $("#answer"+id).show();
 // })
 
-$(document).ready(function () {
-    $("uni-nav-menu").click(function () {
-        // $(".answer").hide();
-        $("uni-nav-items").removeClass("uni-nav-items").addClass("active");
-        // $("active").removeClass("active").addClass("uni-nav-items");
-        //   $("#i"+id).addClass("fa-minus").removeClass("fa-plus");
-        // $("#answer"+id).show();
-    })
-});
+// $(document).ready(function () {
+//     $("twisty").click(function () {
+//         // $(".answer").hide();
+//         $("twisty").removeClass("twisty").addClass("active");
+//         // $("active").removeClass("active").addClass("uni-nav-items");
+//         //   $("#i"+id).addClass("fa-minus").removeClass("fa-plus");
+//         // $("#answer"+id).show();
+//     })
+// });
 
 
 $(document).ready(function () {
