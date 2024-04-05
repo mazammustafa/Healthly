@@ -117,7 +117,7 @@ img {
 .header .header-items {
     display: flex;
     align-items: center;
-    padding: 12px 24px;
+    padding: 5px 10px;
     justify-content: space-between;
     border-radius: 44px;
     background: rgb(255, 255, 255);
@@ -232,7 +232,7 @@ img {
     justify-content: center;
     gap: 8px;
     flex-wrap: wrap;
-    padding: 25px;
+    margin: 40px 0;
 }
 
 .unique-content .uni-nav-menu li {
@@ -374,8 +374,6 @@ img {
 .people-say .testimonials .testimonials-card .testimonial-wrapper .cards {
     width: 275px !important;
 }
-
-.people-say .testimonials .testimonials-card .testimonial-wrapper .cards-img {}
 
 .flexible-pricing {
     padding: 60px 0px;
